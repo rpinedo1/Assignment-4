@@ -35,6 +35,7 @@ exports.create = function(req, res) {
       res.json(listing);
     }
   });
+  .
 };
 
 /* Show the current listing */
