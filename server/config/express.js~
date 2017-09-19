@@ -17,8 +17,9 @@ module.exports.init = function() {
   //enable request logging for development debugging
   app.use(morgan('dev'));
 
+
   //body parsing middleware 
-  app.use(bodyParser.json());
+app.use(bodyParser.json());
 
   /* serve static files */
   app.use('/', express.static(__dirname + '/../../client'));
